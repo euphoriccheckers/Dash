@@ -1,24 +1,42 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
   text-align: center;
   flex: 1;
 }
 
 .cards {
   display: flex;
+  gap: 1rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem;
 }
 
 .appbody {
   display: flex;
+  flex: 1;
+  min-height: 0;
 }
 
 .sidebar {
   flex: auto;
-  max-width: 15em;
+  max-width: 15rem;
+  height: 100%;
+  border: solid white 1px;
 }
 
 .page {
   flex-grow: 4;
+  height: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+  border: solid white 1px;
+  overflow: auto;
 }

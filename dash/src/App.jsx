@@ -7,9 +7,9 @@ import NavBar from './components/NavBar'
 function App() {
   return (
     <div className='app'>
-      <h1>AppName</h1>
       <div className='appbody'>
         <div className='sidebar'>
+          <h1>AppName</h1>
           <NavBar />
         </div>
         <div className='page'>

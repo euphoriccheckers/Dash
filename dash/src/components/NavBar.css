@@ -1,5 +1,5 @@
 .navbar {
     text-align: left;
-    border: solid 1px white;
-    margin-right: 1em;
+    margin-right: 1rem;
+    padding: 0 1.1rem;
 }
